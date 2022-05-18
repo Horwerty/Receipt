@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Inconsolata:wght@300&family=Noto+Serif:ital,wght@1,700&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Inconsolata:wght@300&family=Lato&family=Noto+Serif:ital,wght@1,700&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Inconsolata:wght@300&family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Tapestry&display=swap');
+* { 
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+body {
+      width: 320px;
+      margin: 0 auto;
+}
+
+header {
+      margin: auto;
+}
+
+#container {
+     position: relative;
+      margin: 2rem auto;
+      width: 90%;
+      box-shadow: 1px 2px 2px black;
+}
+
+.background {
+      position: absolute;
+      background-image: url(./ehorecon\ logo.png);
+      opacity: 0.9; 
+}
+
+.headDiv {
+      background-color:rgb(248,249,250);
+} 
+
+.headDiv img {
+      margin-left: .5rem;
+      opacity: 0.8;
+      max-width: 100%;
+      height: 4rem;
+      margin-top: 0.5rem ;
+}
+
+#longLine {
+      background-color: rgb(40,167,69);
+      height: 10px;
+}
+
+#heading {
+      font-family: 'Lato', sans-serif;
+      margin-top: 5px;
+      text-align: center;
+      text-decoration: underline;
+      font-size: 1em;
+}
+
+.detailSection {
+      display: flex;
+}
+
+.depositorsDetails {
+      margin-right: 5px;
+      margin-top: 5px;
+      padding-left: 9px;
+      width: 50%;
+      font-family: 'Inconsolata', monospace;
+}
+
+.depositorsDetails h3 {
+      color:white;
+      padding-left: 3px;
+      font-size: 0.5em;
+      padding-top: 5px ;
+      padding-bottom: 5px;
+      background-color: rgba(10, 9, 9, 0.965);
+}
+
+.depositorsDetails h4 {
+      font-size: 0.5em;
+}
+
+.receiptNo {
+      font-family: 'Inconsolata', monospace;
+      padding-right:5px;
+      margin: 5px;
+      width: 43%;
+}
+
+.receiptNo h3 {
+      color:white;
+      font-size: 0.5em;
+      padding-left: 3px;
+      padding-top: 5px ;
+      padding-bottom: 5px;
+      background-color: rgba(10, 9, 9, 0.965);
+}
+
+.receiptNo h4 {
+      font-size: 0.6em;
+}
+
+.paymentDetails {
+      font-family: 'Inconsolata', monospace;
+      margin: 10px 5px;
+      padding: 0 5px;
+}
+
+.paymentDetails h3 {
+      color:white;
+      margin-bottom: 10px;
+      padding-left: 3px;
+      font-size: 0.5em;
+      padding-top: 5px ;
+      padding-bottom: 5px;
+      background-color: rgba(10, 9, 9, 0.965);
+}
+
+.paymentDetails h4 {
+      font-size: 0.6rem;
+}
+
+p {   
+      text-align: center;
+      font-family: 'EB Garamond', serif;
+      margin-top:  25px;
+      margin-bottom: 2px;
+      margin-left: 5px;
+      margin-right: 5px;
+      line-height: 0.7em;
+      font-size: 0.6em;
+}
+
+.watermark h4 {
+      margin-left: 6rem;
+      font-size: .9rem;
+      color: rgb(254,20,20);
+      opacity: 0.1;
+      position: absolute;
+      transform-origin: 0 0;
+      transform: rotate(320deg);
+}
+
+#centerDiv h4 {
+      margin-left: 4rem;
+      font-size: .9rem;
+      color: rgb(254,20,20);
+      opacity: 0.1;
+      position: absolute;
+      transform-origin: 0 0;
+      transform: rotate(320deg);
+}
+
+#centerDivone h4 {
+      /* margin-top: 2em; */
+      margin-left: 3rem;
+      font-size: .9rem;
+      color: rgb(254,20,20);
+      opacity: 0.1;
+      /* position: absolute; */
+      transform-origin: 0 0;
+      transform: rotate(320deg); 
+}
+
+#centerDivtwo h4 {
+      margin-left: 10rem;
+      font-size: .9rem;
+      color: rgb(254,20,20);
+      opacity: 0.1;
+      /* position: absolute; */
+      transform-origin: 0 0;
+      transform: rotate(320deg);
+}
+
+#centerThree h4 {
+      margin-left: 15rem;
+      padding-right: 10px;
+      font-size: .9rem;
+      color: rgb(254,20,20);
+      opacity: 0.1;
+      /* position: absolute; */
+      transform-origin: 0 0;
+      transform: rotate(320deg);
+}
+
+.contact {
+      background-color: rgb(248,249,250);
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.4em;
+      padding: 5px;
+}
+
+ /* .watermarkImage {
+      margin-top: 30rem;
+      margin-left: 15rem;
+      z-index: 999;
+      opacity: 0.1;
+      position: absolute;
+      transform-origin: 0 0;
+      transform: rotate(320deg);
+} */
+
+.mainDiv{
+      background-color: rgb(248,249,250);
+      display: inline-block;
+}
+
+@media only screen and (min-width: 760px) {
+      body {
+            width: 760px;
+            margin: 0 auto;
+      }
+
+      .headDiv {
+            background-color:rgb(248,249,250);
+            padding-bottom: 0;
+      }
+      
+      #container {
+            margin: 2rem auto;
+            width: 90%;
+            box-shadow: 1px 2px 2px black;
+      }
+      
+      .headDiv img {
+            padding: 5px;
+            max-width: 100%;
+            height: 8rem;
+      }
+      
+      #longLine {
+            background-color: rgb(40,167,69);
+            height: 20px;
+            padding: 0;
+            margin: 0;
+      }
+      
+      #heading {
+            font-family: 'Lato', sans-serif;
+            /* border: solid tomato; */
+            /* padding-top: 15px; */
+            text-align: center;
+            text-decoration: underline;
+            font-size: 1.5em;
+      }
+      
+      .detailSection {
+            display: flex;
+      }
+      
+      .depositorsDetails {
+            margin-right: 5px;
+            margin-top: 4vh;
+            padding-left: 25px;
+            width: 50%;
+            font-family: 'Inconsolata', monospace;
+      }
+      
+      .depositorsDetails h3 {
+            color:white;
+            padding-top: 7px ;
+            padding-bottom: 7px;
+            padding-left: 3px;
+            font-size: 1.2em;
+            background-color: rgba(10, 9, 9, 0.965);
+      }
+      
+      .depositorsDetails h4 {
+            margin-top: 10px;
+            /* padding-left: 10px; */
+            font-size: 1.0em;
+      }
+      
+      .receiptNo {
+            font-family: 'Inconsolata', monospace;
+            padding-right:20px;
+            margin-top: 4vh;
+            /* margin: 5vh; */
+            width: 43%;
+      }
+      
+      .receiptNo h3 {
+            color: white;
+            padding-left: 3px;
+            padding-top: 7px ;
+            padding-bottom: 7px ;
+            font-size: 1.2em;
+            background-color: rgba(10, 9, 9, 0.965);
+      }
+      
+      .receiptNo h4 {
+            margin-top: 10px;
+            /* padding-left: 10px; */
+            font-size: 1.0em;
+      }
+      
+      .paymentDetails {
+            font-family: 'Inconsolata', monospace;
+            margin: 5vh 5px;
+            padding: 0 20px;
+            margin-right: 25px;
+      }
+      
+      .paymentDetails h3 {
+            color: white;
+            padding-top: 7px ;
+            padding-bottom: 7px ;
+            margin-bottom: 20px;
+            padding-left: 5px;
+            font-size: 1.2em;
+            background-color: rgba(10, 9, 9, 0.965);
+      }
+      
+      .paymentDetails h4 {
+            font-size: 1.0rem;
+            margin-top: 10px;
+      }
+      
+      p {
+            font-family: 'EB Garamond', serif;
+            margin-top:  18vh;
+            /* margin-bottom: 10px; */
+            margin-left: 10px;
+            margin-right: 10px;
+            line-height: 0.9em;
+            font-size: 1.0em;
+            text-align: center;
+      }
+
+      .watermark h4 {
+            font-size: 2.5rem;
+            color: rgb(254,20,20);
+            opacity: 0.1;
+            position: absolute;
+            transform-origin: 0 0;
+            transform: rotate(320deg);
+      }
+      
+      #centerDiv h4 {
+            margin-left: 6rem;
+            font-size: 2.5rem;
+            color: rgb(254,20,20);
+            opacity: 0.1;
+            position: absolute;
+            transform-origin: 0 0;
+            transform: rotate(320deg);
+      }
+      
+      #centerDivone h4 {
+            /* margin-top: 2em; */
+            margin-left: 4rem;
+            font-size: 2.5rem;
+            color: rgb(254,20,20);
+            opacity: 0.1;
+            /* position: absolute; */
+            transform-origin: 0 0;
+            transform: rotate(320deg); 
+      }
+      
+      #centerDivtwo h4 {
+            margin-left: 20rem;
+            font-size: 2.5rem;
+            color: rgb(254,20,20);
+            opacity: 0.1;
+            /* position: absolute; */
+            transform-origin: 0 0;
+            transform: rotate(320deg);
+      }
+      
+      #centerThree h4 {
+            margin-left: 36rem;
+            padding-right: 10px;
+            font-size: 2.4rem;
+            color: rgb(254,20,20);
+            opacity: 0.1;
+            /* position: absolute; */
+            transform-origin: 0 0;
+            transform: rotate(320deg);
+      }
+      
+      .contact {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8em;
+            padding: 10px;
+      }
+      
+}
